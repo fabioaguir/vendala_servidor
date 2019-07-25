@@ -5,12 +5,12 @@ versões
 - PHP: "^7.1.3"
 - Laravel: "5.7.*"
 
-# Clonar do git
+## Clonar do git
 1. Entrar no diretório do projeto
 2. executar o comando composer install
 3. php artisan key:generate
 
-# Configuração Token
+## Configuração Token
  1. Adicione o provedor de serviços à providers no config/app.php arquivo de configuração da seguinte maneira:
 ```
 'providers' => [
@@ -22,7 +22,7 @@ versões
 php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 3. php artisan jwt:secret
 
-# Configuração Cors
+## Configuração Cors
  1. adicione Cors\ServiceProvider ao seu array de provedores config/app.php:
 ```
 'providers' => [
@@ -40,7 +40,7 @@ protected $middleware = [
 3. Rodar o comando para publicar o provider do cros
 php artisan vendor:publish --provider="Barryvdh\Cors\ServiceProvider"
 
-# Configuração Banco de Dados SQLite
+## Configuração Banco de Dados SQLite
 1. no arquivo .env deixar da seguinte forma os parâmetro de conexão com o banco de dados
 ```
 DB_CONNECTION=sqlite
