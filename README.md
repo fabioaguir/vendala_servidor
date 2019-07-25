@@ -11,7 +11,7 @@ versões
 - php artisan key:generate
 
 # Configuração Token
- Adicione o provedor de serviços à providers no config/app.php arquivo de configuração da seguinte maneira:
+ - Adicione o provedor de serviços à providers no config/app.php arquivo de configuração da seguinte maneira:
 'providers' => [
     ...
     Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
