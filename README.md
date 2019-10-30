@@ -2,7 +2,7 @@
 Projeto Servidor
 
 versões
-- PHP: "^7.1.3"
+-- PHP: "^7.1.3"
 - Laravel: "5.7.*"
 
 ## Clonar do git
